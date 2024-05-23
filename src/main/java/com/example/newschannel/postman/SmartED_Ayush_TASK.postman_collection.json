@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "da231a18-2f3f-4cdd-adbd-f41357793728",
+		"name": "SmartED_Ayush_TASK",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30956225"
+	},
+	"item": [
+		{
+			"name": "Common-Keywords",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/news/common-keywords?threshold=3&startDate=2024-05-22T00:00:00&endDate=2024-05-23T23:59:59\n",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"news",
+						"common-keywords"
+					],
+					"query": [
+						{
+							"key": "threshold",
+							"value": "3"
+						},
+						{
+							"key": "startDate",
+							"value": "2024-05-22T00:00:00"
+						},
+						{
+							"key": "endDate",
+							"value": "2024-05-23T23:59:59\n"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
