@@ -32,7 +32,7 @@ Running the Application :
 - To build and run the application locally:
 1. ./gradlew build
    
-3. ./gradlew bootRun
+2. ./gradlew bootRun
 
 API Endpoints
 1. Fetch Common Topics
@@ -47,7 +47,7 @@ API Endpoints
     Description: Retrieves common topics based on news articles published between startDate and endDate.
 
 
-3. Count Keyword Occurrences
+2. Count Keyword Occurrences
   Endpoint: /api/news/keyword-count
 
   Method: GET
@@ -60,7 +60,7 @@ API Endpoints
   Description: Counts occurrences of a specific keyword in news articles published between startDate and endDate.
 
 
-5. Fetch Common Keywords
+3. Fetch Common Keywords
    
     Endpoint: /api/news/common-keywords
     
@@ -74,7 +74,7 @@ API Endpoints
     Description: Retrieves common keywords with frequency equal to or greater than threshold in news articles published between startDate and endDate.
 
 
-7. Fetch Uncommon Keywords
+4. Fetch Uncommon Keywords
 Endpoint: /api/news/uncommon-keywords
 
 Method: GET
