@@ -29,9 +29,10 @@ Before running the application, ensure you have:
 
 Running the Application :
 
-To build and run the application locally:
-./gradlew build
-./gradlew bootRun
+- To build and run the application locally:
+1. ./gradlew build
+   
+3. ./gradlew bootRun
 
 API Endpoints
 1. Fetch Common Topics
