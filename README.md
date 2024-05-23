@@ -15,7 +15,7 @@ Before running the application, ensure you have:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/NewsChannel.git
+   git clone https://github.com/AyushJHANWAR03/NewsChannel
    cd NewsChannel
 2. Navigate to the project directory:
    cd path/to/NewsChannel
